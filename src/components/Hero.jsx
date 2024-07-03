@@ -5,7 +5,7 @@ import favIcon from '../assets/favIcon.png'
 import shareIcon from '../assets/shareIcon.png'
 import imageIcon from '../assets/imageIcon.png'
 
-const HeroSection = () => (
+const Hero = () => (
   <section className="relative flex flex-col px-12 py-12 min-h-[291px] max-md:px-5">
     <img loading="lazy" src={bgimage} className="absolute inset-0 object-cover w-full h-full" alt="Hero Background" />
     <div className="relative flex justify-between">
@@ -22,4 +22,4 @@ const HeroSection = () => (
   </section>
 );
 
-export default HeroSection;
+export default Hero;
