@@ -4,7 +4,7 @@ import searchIcon from '../assets/searchIcon.png';
 import locationIcon from '../assets/locationIcon.png';
 
 const Navbar = () => (
-  <header className="p-12 w-full max-md:px-5 font-sans">
+  <header className="p-10 w-full max-md:px-5 font-sans">
     <div className="flex gap-6 max-md:flex-col max-md:gap-0">
       <div className="flex flex-col max-md:items-center w-1/5 max-md:w-full">
         <img loading="lazy" src={logo} className="shrink-0 w-[171px] max-md:mt-1" alt="Logo" />
