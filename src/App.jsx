@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Navbar';
 import Hero from './components/Hero';
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/Sidebar';
 
 const App = () => (
   <div className="flex flex-col bg-white">

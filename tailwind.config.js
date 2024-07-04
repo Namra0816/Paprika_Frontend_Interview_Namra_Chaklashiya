@@ -9,9 +9,13 @@ module.exports = {
           light: '#ffe4e6',
           dark: '#fb7185',
         },
+        zinc: {
+          light: '#d4d4d8',
+        },
       },
       fontFamily: {
-        sans:'DM Sans',
+        inter: ['Inter', 'sans-serif'],
+        sans: ['DM Sans', 'sans-serif'],
       },
     },
   },
