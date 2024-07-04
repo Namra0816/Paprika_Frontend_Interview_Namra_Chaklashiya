@@ -12,6 +12,14 @@ module.exports = {
         zinc: {
           light: '#d4d4d8',
         },
+        stone: {
+          300: '#d6d3d1',
+          700: '#44403c',
+        },
+        emerald: {
+          500: '#10b981',
+        },
+        offblack: '#3e4346',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
