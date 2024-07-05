@@ -10,7 +10,7 @@ const Navbar = () => (
         <img loading="lazy" src={logo} className="shrink-0 w-[171px] max-md:mt-1" alt="Logo" />
       </div>
       <div className="w-3/5 max-md:w-full">
-        <div className="text-gray-400 max-md:mt-4">
+        <div className="text-lightgray-300 max-md:mt-4">
           <div className="p-3 bg-white rounded-xl shadow-lg w-full">
             <div className="flex gap-3">
               <div className="flex items-center gap-4 w-4/5 max-md:w-full">

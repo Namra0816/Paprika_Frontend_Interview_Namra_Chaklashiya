@@ -14,7 +14,7 @@ const RestaurantHeader = () => (
             1.2 miles away | <span className="font-bold text-emerald-500">Open</span>
           </div>
         </div>
-      <div className="flex flex-col flex-1 self-start p-2 bg-white rounded-2xl border border-gray-200 border-solid text-stone-700">
+      <div className="flex flex-col flex-1 self-start p-2 bg-white rounded-2xl border border-lightgray-100 border-solid text-stone-700">
         <div className="flex gap-5 items-center">
           <img loading="lazy" src={addItemIllustration} className="shrink-0 aspect-square w-[61px]" alt="Add Icon" />
           <div className="flex flex-col flex-1 self-stretch py-1 my-auto">
