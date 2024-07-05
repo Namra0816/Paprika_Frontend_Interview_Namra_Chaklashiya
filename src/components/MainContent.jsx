@@ -1,6 +1,7 @@
 import React from 'react';
 import RestaurantHeader from './RestaurantHeader';
 import BestMatches from './BestMatches';
+import Appetizer from './Appetizer';
 
 const MainContent = () => (
   <main className="flex flex-col ml-5 w-4/5 max-md:ml-0 max-md:w-full">
@@ -8,6 +9,7 @@ const MainContent = () => (
       <RestaurantHeader />
       <div className="shrink-0 mt-10 h-px border-solid bg-zinc-300 border-zinc-light max-md:max-w-full" />
       <BestMatches />
+      <Appetizer />
     </div>
   </main>
 );
