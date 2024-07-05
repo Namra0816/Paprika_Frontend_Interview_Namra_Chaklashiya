@@ -22,6 +22,13 @@ module.exports = {
         offblack: '#3e4346',
         aliceblue: "#ebf2ff",
         royalblue: "#226ce8",
+        gray: "#181818",
+        dimgray: "#4f4f4f",
+        lightgray: {
+          "100": "#d6d6d6",
+          "200": "#cdcdcd",
+          "300": "#ccc",
+        },
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
