@@ -1,7 +1,7 @@
 import React from 'react';
-import verifiedIcon from '../assets/verifiedIcon.png';
-import addItemIllustration from '../assets/addItemIllustration.png';
-import forwardarrow from '../assets/forwardarrow.png';
+import verifiedIcon from '../../assets/verifiedIcon.png';
+import addItemIllustration from '../../assets/addItemIllustration.png';
+import forwardarrow from '../../assets/forwardarrow.png';
 
 const RestaurantHeader = () => (
     <div className="flex gap-12 px-px max-md:flex-wrap max-md:max-w-full">

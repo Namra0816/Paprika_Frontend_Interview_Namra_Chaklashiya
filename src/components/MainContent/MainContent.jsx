@@ -1,7 +1,7 @@
 import React from 'react';
 import RestaurantHeader from './RestaurantHeader';
 import BestMatches from './BestMatches';
-import Appetizer from './Appetizer';
+import Appetizer from './Appetizers/Appetizer';
 
 const MainContent = () => (
   <main className="flex flex-col ml-5 w-4/5 max-md:ml-0 max-md:w-full">

@@ -1,5 +1,5 @@
 import React from 'react';
-import Strawberry from '../assets/strawberry.svg'
+import Strawberry from '../../assets/strawberry.svg'
 
 const BestMatches = () => (
   <div>

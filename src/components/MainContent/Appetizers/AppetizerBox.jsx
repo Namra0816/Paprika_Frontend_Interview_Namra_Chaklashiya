@@ -1,5 +1,5 @@
 import React from "react";
-import teaIcon from "../assets/teaIcon.png"
+import teaIcon from "../../../assets/teaIcon.png"
 
 const AppetizerPairs = () => {
   return (
