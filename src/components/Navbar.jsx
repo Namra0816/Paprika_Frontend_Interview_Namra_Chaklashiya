@@ -5,8 +5,10 @@ import locationIcon from '../assets/locationIcon.png';
 import LoginIcon from '@mui/icons-material/Login';
 
 const Navbar = () => {
+  // State to manage the menu open/close status
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+   // Renders the desktop version of the navbar
   const renderDesktopMenu = () => (
     <div className="hidden lg:flex gap-6">
       <div className="flex flex-col items-center w-1/5">
@@ -37,7 +39,8 @@ const Navbar = () => {
       </div>
     </div>
   );
-
+  
+  // Renders the mobile version of the navbar
   const renderMobileMenu = () => (
     <div className="lg:hidden flex flex-col gap-4">
       <div className="flex justify-between items-center">
