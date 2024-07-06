@@ -5,6 +5,32 @@
 
 Welcome to Paprika! 🍽️ We're a consumer app revolutionizing the way you find restaurants and menu items that cater to your unique food preferences and dietary restrictions.
 
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Namra0816/Paprika_Frontend_Interview_Namra_Chaklashiya.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Paprika_Frontend_Interview_Namra_Chaklashiya
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
+```bash
+npm start
+```
+
+This will launch the application in your default web browser. You can now explore the various features and components of the application.
+
 ## Project Structure
 
 The project is structured as follows:
@@ -51,32 +77,6 @@ Paprika_Frontend_Interview_Namra_Chaklashiya/
 └── postcss.config.js
 └── package.json
 ```
-
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Namra0816/Paprika_Frontend_Interview_Namra_Chaklashiya.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Paprika_Frontend_Interview_Namra_Chaklashiya
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-To start the development server, run:
-```bash
-npm start
-```
-
-This will launch the application in your default web browser. You can now explore the various features and components of the application.
 
 ## Components
 
