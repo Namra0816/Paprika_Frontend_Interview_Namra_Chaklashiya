@@ -1,70 +1,135 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Paprika
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+Welcome to Paprika! 🍽️ We're a consumer app revolutionizing the way you find restaurants and menu items that cater to your unique food preferences and dietary restrictions.
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project is structured as follows:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```plaintext
+Paprika_Frontend_Interview_Namra_Chaklashiya/
+│
+├── public/
+│   ├── index.html
+│   ├── logoIcon.png
+│
+├── src/
+│   ├── assets/
+│   │   ├── addItemIllustration..png
+│   │   ├── backArrow.png
+│   │   ├── bgimage.png
+│   │   ├── favIcon.png
+│   │   ├── forwardarrow.png
+│   │   ├── imageIcon.png
+│   │   ├── locationIcon.png
+│   │   ├── logo.png
+│   │   ├── searchIcon.png
+│   │   ├── shareIcon.png
+│   │   ├── strawberry.svg
+│   │   ├── teaIcon.png
+│   │   ├── verifiedIcon.png
+│   ├── components/
+│   │   ├── MainContent/
+│   │   │   ├── Appetizers/
+│   │   │   │   ├── Appetizer.jsx
+│   │   │   │   └── AppetizerBox.jsx
+│   │   │   ├── BestMatches.jsx
+│   │   │   ├── MainContent.jsx
+│   │   │   └── RestaurantHeader.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   └── Sidebar.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.js
+│
+└── tailwind.config.js
+└── package-lock.json
+└── postcss.config.js
+└── package.json
+```
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To set up the project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Namra0816/Paprika_Frontend_Interview_Namra_Chaklashiya.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Paprika_Frontend_Interview_Namra_Chaklashiya
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To start the development server, run:
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will launch the application in your default web browser. You can now explore the various features and components of the application.
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Appetizer.jsx
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The `Appetizer` component displays a list of appetizers in a structured layout. It utilizes the `AppetizerBox` component to render individual appetizer items.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### AppetizerBox.jsx
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The `AppetizerBox` component represents an individual appetizer item with details such as the name, price, description, and dietary match percentage.
 
-## Learn More
+### BestMatches.jsx
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `BestMatches` component displays the best-matched menu items, each represented with an image, name, preference match, and price.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### RestaurantHeader.jsx
 
-### Code Splitting
+The `RestaurantHeader` component displays information about the restaurant, including the name, verification status, distance, and open status. It also includes an option to add new items to the menu.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Navbar.jsx
 
-### Analyzing the Bundle Size
+The `Navbar` component is the navigation bar of the application, allowing users to navigate between different sections of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Hero.jsx
 
-### Making a Progressive Web App
+The `Hero` component represents the hero section of the application, typically the main banner or introductory section.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Sidebar.jsx
 
-### Advanced Configuration
+The `Sidebar` component displays additional navigation or information options for the user.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### MainContent.jsx
 
-### Deployment
+The `MainContent` component is the main content area where the primary information and features of the application are displayed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Styling
 
-### `npm run build` fails to minify
+The application uses Tailwind CSS for styling. The configuration for Tailwind CSS can be found in the `tailwind.config.js` file. Global styles are defined in the `index.css` file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Dependencies
+
+The project relies on several npm packages, including but not limited to:
+
+- `react`
+- `react-dom`
+- `tailwindcss`
+- `@emotion/react`
+- `@emotion/styled`
+- `@mui/material`
+- `@mui/icons-material`
+
+For a complete list of dependencies, refer to the `package-lock.json` file.
+
+## License
+
+This project is licensed under the MIT License.
