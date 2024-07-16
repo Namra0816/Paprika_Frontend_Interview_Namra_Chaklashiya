@@ -34,6 +34,9 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         sans: ['DM Sans', 'sans-serif'],
       },
+      placeholderColor: {
+        'lightgray-300': '#D1D5DB',
+      },
     },
   },
   plugins: [],
