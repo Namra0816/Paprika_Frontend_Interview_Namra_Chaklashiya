@@ -12,7 +12,9 @@ const Navbar = () => {
   const renderDesktopMenu = () => (
     <div className="hidden lg:flex gap-6">
       <div className="flex flex-col items-center w-1/5">
-        <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
+        <button>
+          <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
+        </button>
       </div>
       <div className="w-3/5">
         <div className="text-lightgray-300">
@@ -46,8 +48,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
         <LoginIcon
-          sx={{ color: '#ff7b7b' }}
-          className="cursor-pointer"
+          className="cursor-pointer text-red-400"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
       </div>
