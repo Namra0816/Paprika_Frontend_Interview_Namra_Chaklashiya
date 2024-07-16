@@ -8,7 +8,7 @@ const Navbar = () => {
   // State to manage the menu open/close status
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-   // Renders the desktop version of the navbar
+  // Renders the desktop version of the navbar
   const renderDesktopMenu = () => (
     <div className="hidden lg:flex gap-6">
       <div className="flex flex-col items-center w-1/5">
@@ -22,12 +22,20 @@ const Navbar = () => {
             <div className="flex gap-5 items-center">
               <div className="flex items-center gap-4 w-4/5">
                 <img loading="lazy" src={searchIcon} alt="Search Icon" />
-                <span>"Gluten Free Restaurants"</span>
+                <input
+                  type="text"
+                  placeholder='"Gluten Free Restaurants"'
+                  className="w-full outline-none placeholder-lightgray-300"
+                />
               </div>
               <div className="h-6 box-border border-r-[1px]" />
               <div className="flex items-center gap-4 w-1/2">
                 <img loading="lazy" src={locationIcon} alt="Location Icon" />
-                <span>2374 Willow St. Ave</span>
+                <input
+                  type="text"
+                  placeholder='2374 Willow St. Ave'
+                  className="w-full outline-none placeholder-lightgray-300"
+                />
               </div>
             </div>
           </div>
@@ -41,7 +49,7 @@ const Navbar = () => {
       </div>
     </div>
   );
-  
+
   // Renders the mobile version of the navbar
   const renderMobileMenu = () => (
     <div className="lg:hidden flex flex-col gap-4">
@@ -49,11 +57,10 @@ const Navbar = () => {
         <button>
           <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
         </button>
-          <LoginIcon
-            className="cursor-pointer text-red-400"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          />
-       
+        <LoginIcon
+          className="cursor-pointer text-red-400"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        />
       </div>
       {isMenuOpen && (
         <div className="flex flex-col items-center gap-5 text-xl font-bold text-rose-dark">
@@ -66,12 +73,20 @@ const Navbar = () => {
           <div className="flex gap-3 items-center">
             <div className="flex items-center gap-4 w-full">
               <img loading="lazy" src={searchIcon} alt="Search Icon" />
-              <span>"Gluten Free Restaurants"</span>
+              <input
+                type="text"
+                placeholder='"Gluten Free Restaurants"'
+                className="w-full outline-none placeholder-lightgray-300"
+              />
             </div>
-            <div className="h-8 box-border border-r-[2px]" />
+            <div className="h-6 box-border border-r-[1px]" />
             <div className="flex items-center gap-4 w-full">
               <img loading="lazy" src={locationIcon} alt="Location Icon" />
-              <span>2374 Willow St. Ave</span>
+              <input
+                  type="text"
+                  placeholder='2374 Willow St. Ave'
+                  className="w-full outline-none placeholder-lightgray-300"
+                />
             </div>
           </div>
         </div>
@@ -88,4 +103,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
