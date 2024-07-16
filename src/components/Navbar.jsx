@@ -46,11 +46,14 @@ const Navbar = () => {
   const renderMobileMenu = () => (
     <div className="lg:hidden flex flex-col gap-4">
       <div className="flex justify-between items-center">
-        <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
-        <LoginIcon
-          className="cursor-pointer text-red-400"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        />
+        <button>
+          <img loading="lazy" src={logo} className="shrink-0 w-[171px]" alt="Logo" />
+        </button>
+          <LoginIcon
+            className="cursor-pointer text-red-400"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+       
       </div>
       {isMenuOpen && (
         <div className="flex flex-col items-center gap-5 text-xl font-bold text-rose-dark">
