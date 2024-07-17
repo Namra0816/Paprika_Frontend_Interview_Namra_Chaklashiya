@@ -21,7 +21,9 @@ const RestaurantHeader = () => (
             <div className="text-base font-bold text-ellipsis">Add Item</div>
             <div className="mt-1 text-sm text-ellipsis">Add a new item to this menu</div>
           </div>
-          <img loading="lazy" src={forwardarrow} className="shrink-0 my-auto aspect-square w-[22px]" alt="Plus Icon" />
+          <button>
+            <img loading="lazy" src={forwardarrow} className="shrink-0 my-auto aspect-square w-[22px]" alt="Plus Icon" />
+          </button>
         </div>
       </div>
     </div>
