@@ -7,7 +7,7 @@ const RestaurantHeader = () => (
     <div className="flex gap-12 px-px max-md:flex-wrap max-md:max-w-full">
         <div className="flex flex-col flex-1 py-1.5">
           <div className="flex gap-5 pr-2 mr-auto text-3xl font-bold text-stone-700">
-            <div className="text-ellipsis">The Daily Grind</div>
+            <button className="text-ellipsis text-left">The Daily Grind</button>
             <img loading="lazy" src={verifiedIcon} className="shrink-0 my-auto aspect-square w-[35px]" alt="Verified Icon" />
           </div>
           <div className="mt-5 font-inter text-2xl text-offblack text-ellipsis">
